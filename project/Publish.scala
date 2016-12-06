@@ -17,19 +17,6 @@ object NoPublish extends AutoPlugin {
 
 }
 
-object Publish extends AutoPlugin {
-  import bintray.BintrayPlugin
-  import bintray.BintrayPlugin.autoImport._
-
-  override def trigger = allRequirements
-  override def requires = BintrayPlugin
-
-  override def projectSettings = Seq(
-    bintrayOrganization := Some("akka"),
-    bintrayPackage := "com.typesafe.akka:akka-http_2.11"
-  )
-}
-
 object DeployRsync extends AutoPlugin {
   import scala.sys.process._
   import sbt.complete.DefaultParsers._
