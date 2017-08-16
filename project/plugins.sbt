@@ -21,7 +21,7 @@ addSbtPlugin("pl.project13.scala" % "sbt-jmh" % "0.2.27")
 addSbtPlugin("pl.project13.sbt" % "sbt-jol" % "0.1.1")
 addSbtPlugin("net.virtual-void" % "sbt-dependency-graph" % "0.8.2") // for advanced PR validation features
 addSbtPlugin("io.spray" % "sbt-boilerplate" % "0.6.0")
-addSbtPlugin("me.lessis" % "bintray-sbt" % "0.3.0-8-g6d0c3f8")
+addSbtPlugin("org.foundweekends" % "sbt-bintray" % "0.5.1")
 addSbtPlugin("com.lightbend.sbt" % "sbt-javaagent" % "0.1.2")
 addSbtPlugin("com.lightbend.akka" % "sbt-paradox-akka" % "0.1")
 addSbtPlugin("com.lightbend" % "sbt-whitesource" % "0.1.2")
